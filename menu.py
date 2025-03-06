@@ -9,8 +9,9 @@ def multiplicar(a, b):
 
 def dividir(a, b):
     if b != 0:
-        return a / belse:
-    return "Divisão por 0 não permitida!"
+        return a / b
+    else:
+        return "Divisão por 0 não permitida!"
 
 def menu():
     while True:
@@ -32,7 +33,7 @@ def menu():
                 n1 = float(input("Digite o primeiro número: "))
                 n2 = float(input("Digite o segundo número: "))
 
-               if opcao == '1':
+                if opcao == '1':
                     print(f"O resultado da soma é: {somar(n1, n2)}")
                 elif opcao == '2':
                     print(f"O resultado da subtração é: {subtrair(n1, n2)}")
@@ -40,9 +41,10 @@ def menu():
                     print(f"O resultado da multiplicação é: {multiplicar(n1, n2)}")
                 elif opcao == '4':
                     print(f"O resultado da divisão é: {dividir(n1, n2)}")
-        
+
             except ValueError:
-            print("Insira valores válidos!")
+                print("Insira valores válidos!")
+
         else:
             print("Opção inválida, execute o software novamente.") 
 
