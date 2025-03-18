@@ -24,7 +24,8 @@ def menu():
                     print("Resultado: \n", calculadora.somar(a, b))
                 elif opcao == "2":
                     print("Resultado: \n", calculadora.subtrair(a, b))
-
+                elif opcao == "3":
+                    print("Resultado: \n", calculadora.multiplicar(a, b))
                
         else:
             print("Opção inválida, tente novamente!\n")
