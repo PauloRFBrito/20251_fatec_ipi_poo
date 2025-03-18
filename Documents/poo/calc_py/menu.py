@@ -15,7 +15,7 @@ def menu():
             print("Encerando a aplicação!")
             break
     
-         if opcao in ["1", "2", "3", "4"]:
+        if opcao in ["1", "2", "3", "4"]:
             try:
                 a = float(input("Digite o primeiro valor: \n"))
                 b = float(input("Digite o segundo valor: \n"))
