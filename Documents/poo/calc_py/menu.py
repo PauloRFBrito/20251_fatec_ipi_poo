@@ -37,3 +37,5 @@ def menu():
         else:
             print("Opção inválida, tente novamente!\n")
 
+menu()
+
