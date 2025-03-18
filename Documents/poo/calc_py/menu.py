@@ -26,7 +26,14 @@ def menu():
                     print("Resultado: \n", calculadora.subtrair(a, b))
                 elif opcao == "3":
                     print("Resultado: \n", calculadora.multiplicar(a, b))
-               
+                elif opcao == "4":
+                    if b != 0:
+                        print("Resultado: \n", calculadora.dividir(a, b))
+                    else:
+                        print("Divisão por zero não permitida!\n")
+            except ValueError:
+                print("Erro, digite valores válidos!\n")
+
         else:
             print("Opção inválida, tente novamente!\n")
 
