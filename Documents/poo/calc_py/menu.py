@@ -22,6 +22,9 @@ def menu():
 
                 if opcao == "1":
                     print("Resultado: \n", calculadora.somar(a, b))
+                elif opcao == "2":
+                    print("Resultado: \n", calculadora.subtrair(a, b))
+
                
         else:
             print("Opção inválida, tente novamente!\n")
